@@ -93,7 +93,7 @@ params = {
     'lead_thick': 5.0,         # cm
     'poly_thick': 10.0,        # cm
     'source_energy': 2.0,      # MeV
-    'source_intensity': 1e9    # particles/s
+    'source_intensity': 1e9    # particles/s (Caution: for 1E4 to 1E5 partcle histories use PC but for any larger particle histories will need to run on HPC)
 }
 
 # Predict flux
